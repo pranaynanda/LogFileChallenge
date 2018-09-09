@@ -22,7 +22,7 @@ Complexity of both exercises is O(n).
 
 The second exercise is partly also quick because a lot of code there is incomplete.
 
-In the first exercise, the code is runs slow where pandas computes the new dataframe that contains values from only specified timestamps. This could be reduced by processing data in chunks across a distributed architecture.
+In the first exercise, the code runs slow where pandas computes the new dataframe that contains values from only specified timestamps. This could be reduced by processing data in chunks across a distributed architecture.
 
 The second exercise has a tendency to get slower with more rules and more data.
 
