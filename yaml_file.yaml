@@ -1,0 +1,18 @@
+---
+log_level:
+    level_type: ERROR
+    count_thresh: 5
+    time_thresh: 60
+    enabled_flag: True
+response_time:
+    value: 100
+    time_thresh: 5
+    enabled_flag: true
+url:
+    count_thresh: 10
+    enabled_flag: true
+    url_name: /login
+error_type:
+    value: ValueError
+    count_thresh: 5
+    time_thresh: 60
