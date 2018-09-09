@@ -18,6 +18,8 @@ The first exercise takes 9.47 secs to complete whereas the second exercise takes
 
 Using a GPU accelerator did not increase the performance by much. 
 
+Complexity of both exercises is O(n).
+
 The second exercise is partly also quick because a lot of code there is incomplete.
 
 In the first exercise, the code is runs slow where pandas computes the new dataframe that contains values from only specified timestamps. This could be reduced by processing data in chunks across a distributed architecture.
