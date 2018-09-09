@@ -11,7 +11,7 @@ For the second exercise, I thought that I would be able to do it but that's all 
 
 The other part to the second excercise was that although as an SRE I've had experience with Splunk and ELK stack for log analysis, I never really thought I would end up building one. I don't know if you'll like my work but for me personally, this is an impressive feat and a step in a good direction.
 
-###2.  What's the runtime performance? What is the complexity? Where are the bottlenecks?
+### 2.  What's the runtime performance? What is the complexity? Where are the bottlenecks?
 I used the python `.time()` module to compute time taken that calculates CPU time.
 
 The first exercise takes 9.47 secs to complete whereas the second exercise takes 4.14 secs to complete.
@@ -24,7 +24,7 @@ In the first exercise, the code is runs slow where pandas computes the new dataf
 
 The second exercise has a tendency to get slower with more rules and more data.
 
-###3. If you had more time, what improvements would you make, and in what order of priority?
+### 3. If you had more time, what improvements would you make, and in what order of priority?
 1.   Complete the second exercise. Optimize for flexibility and scale. Instead of hard coding If/else conditions, parse through the `key: value` structure, to create a proper rule set like an Ansible module
 2.   Chunk the dataframe in the first exercise. Make it quicker for larger datasets for real time data
 3. Practice more Python for me. The best kind of Python, I know is for System Administrators which needed much when working with on-prem clusters or cloud systems because a lot of tooling has already been done and is readily available. Python for System Adminstrators is just about getting the job done and doesn't really delve into data structures or functional computing.
