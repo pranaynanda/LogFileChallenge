@@ -53,7 +53,7 @@ with open("yaml_file.yaml", 'r') as yamlfile:
 I used my experience with Splunk to define regex. Splunk takes in each line in the log file and then passes it through a regex to get fields.
 """
 
-regex="^((\d{4}-\d{2}-\d{2})\s(\d{2}:\d{2}:\d{2}\.\d+))\s\[PID (\d+)\]\s\[(\d+)\w{2}\]\s\[UID (\w+)\]\s\[(\w+)\]\s(\/\w+)(.*Error name: (\w.+))?(.*)$"
+regex = "^((\d{4}-\d{2}-\d{2})\s(\d{2}:\d{2}:\d{2}\.\d+))\s\[PID (\d+)\]\s\[(\d+)\w{2}\]\s\[UID (\w+)\]\s\[(\w+)\]\s(\/\w+)(.*Error name: (\w.+))?(.*)$"
 
 """#Open Stream and check conditions from YAML (Incomplete)
 
@@ -136,7 +136,7 @@ with open('out.log', 'r') as sys.stdin:  # Open the file as an input stream
                                                         
                                                                                     
         except:
-          pass
+            pass
   
   # The above solution kinda works but is way too complex and inefficient.
 
