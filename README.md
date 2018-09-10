@@ -1,5 +1,13 @@
 # LogFileChallenge
 Log File Challenge for Quartic.ai
+
+Files:
+
+\*.ipynb files - IPython/Jupyter Notebooks of the programs
+\*.py files - Python programs
+yaml_file.yaml - the YAML file for second excercise.
+out.log - Sample log file
+-
 ## Discussion Questions
 
 ### 1.  Briefly describe the conceptual approach you chose! What are the trade-offs?
