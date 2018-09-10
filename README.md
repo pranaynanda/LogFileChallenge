@@ -1,7 +1,7 @@
 # LogFileChallenge
 Log File Challenge for Quartic.ai
 -
-Files:
+## Files:
 
 \*.ipynb files - IPython/Jupyter Notebooks of the programs
 
